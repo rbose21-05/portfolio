@@ -28,9 +28,9 @@ export default {
         strokeStyleDark: `rgba(167, 139, 250, `,
         shadowColorDark: "rgba(167, 139, 250, 0.6)",
     },
-        openGraph: {
-        image: "/PersonalPortfolio_CodeCollab/favicon.svg",
-        url: "https://rbose21-05.github.io/PersonalPortfolio_CodeCollab/",
+    openGraph: {
+        image: "/portfolio/favicon.svg",
+        url: "https://rbose21-05.github.io/portfolio/",
     },
     home: {
         firstName: "RUPSA",

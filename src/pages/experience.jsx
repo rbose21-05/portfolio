@@ -23,7 +23,7 @@ const ExperienceCard = ({ experience, index }) => {
             <div className="exp-date">{experience.date}</div>
             <h3 className="exp-title">{experience.title}</h3>
             <p className="exp-company">{experience.company_name}</p>
-            <ul className="space-y-1.5 list-disc list-inside text-sm text-[var(--ink-muted)] leading-relaxed">
+            <ul className="space-y-1.5 list-disc list-inside text-base text-[var(--ink-muted)] leading-relaxed">
                 {visiblePoints.map((point, j) => (
                     <li key={j}>{point}</li>
                 ))}

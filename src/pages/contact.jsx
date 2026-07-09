@@ -72,7 +72,7 @@ function Contact() {
                             <h3 className="font-hand text-xl font-bold text-[var(--brown)] mb-1">
                                 {card.label}
                             </h3>
-                            <p className="text-xs text-[var(--ink-muted)] break-all">
+                            <p className="text-sm text-[var(--ink-muted)] break-all">
                                 {card.value}
                             </p>
                         </a>

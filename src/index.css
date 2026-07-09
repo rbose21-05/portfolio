@@ -22,6 +22,7 @@
 
 html {
     font-family: "Karla", "Montserrat", sans-serif;
+    font-size: 17px;
     scroll-behavior: smooth;
     color: var(--ink);
 }
@@ -29,6 +30,7 @@ html {
 body {
     background: var(--cream);
     overflow-x: hidden;
+    line-height: 1.65;
 }
 
 /* Paper textures */
@@ -112,7 +114,7 @@ body {
 }
 
 .scrapbook-subtitle {
-    font-size: 1.05rem;
+    font-size: 1.125rem;
     color: var(--ink-muted);
     max-width: 36rem;
     margin: 1rem auto 0;
@@ -369,7 +371,7 @@ body {
 
 .scrap-nav-link {
     font-family: "Caveat", cursive;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--brown);
     padding: 0.35rem 0.85rem;
@@ -466,7 +468,7 @@ body {
 
 .skill-tag {
     font-family: "Caveat", cursive;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     font-weight: 600;
     padding: 0.35rem 1rem;
     background: var(--paper-white);
@@ -542,7 +544,7 @@ body {
 }
 
 .scrap-tag {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.05em;
     padding: 0.25rem 0.65rem;

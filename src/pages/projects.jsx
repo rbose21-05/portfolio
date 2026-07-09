@@ -49,10 +49,10 @@ const ProjectCard = ({ project, index }) => (
                     ))}
                 </div>
 
-                <p className="text-sm text-[var(--ink-muted)] leading-relaxed mb-2">
+                <p className="text-base text-[var(--ink-muted)] leading-relaxed mb-2">
                     {project.text1}
                 </p>
-                <p className="text-sm text-[var(--ink-muted)] leading-relaxed mb-4">
+                <p className="text-base text-[var(--ink-muted)] leading-relaxed mb-4">
                     {project.text2}
                 </p>
 

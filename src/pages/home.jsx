@@ -171,7 +171,7 @@ const Home = () => (
                     {config.home.whoIAm.paragraphs.map((para, i) => (
                         <p
                             key={i}
-                            className={`text-base leading-relaxed text-[var(--ink)] ${
+                            className={`text-lg leading-relaxed text-[var(--ink)] ${
                                 i < config.home.whoIAm.paragraphs.length - 1
                                     ? "mb-4"
                                     : ""

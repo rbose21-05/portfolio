@@ -39,6 +39,7 @@ export default {
         tagline:
             "I build perception systems for robots & retail.",
         currently: [
+            "CV Intern · TangoEye",
             "CV Research · DARoS Lab",
             "Undergraduate Assistant · PIT@UMass",
             "Research · PIT@UMass",

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Meta from "./components/Meta";
@@ -12,6 +13,15 @@ import Contact from "./pages/contact";
 
 export default function RootLayout() {
     useScrollAnimation();
+
+    useEffect(() => {
+        const id = window.location.hash.slice(1);
+        if (!id) return;
+
+        requestAnimationFrame(() => {
+            document.getElementById(id)?.scrollIntoView();
+        });
+    }, []);
 
     return (
         <div className="flex flex-col min-h-screen bg-cream">

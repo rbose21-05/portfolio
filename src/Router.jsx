@@ -20,7 +20,12 @@ const homeRoute = createRoute({
 });
 const routeTree = rootRoute.addChildren([homeRoute]);
 
-const router = createRouter({ routeTree });
+const basepath = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+const router = createRouter({
+    routeTree,
+    basepath: basepath || "/",
+});
 
 export default function Router() {
     return <RouterProvider router={router} />;

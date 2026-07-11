@@ -27,6 +27,14 @@ html {
     color: var(--ink);
 }
 
+#home,
+#experience,
+#projects,
+#skills,
+#contact {
+    scroll-margin-top: 5rem;
+}
+
 body {
     background: var(--cream);
     overflow-x: hidden;

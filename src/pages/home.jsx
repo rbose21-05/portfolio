@@ -1,6 +1,7 @@
 import config from "../config";
 import Typewriter from "typewriter-effect";
 import { Download, ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { scrollToSection } from "../utils/scrollToSection";
 
 const quickLinks = [
     { href: "#projects", label: "see my projects →" },
@@ -111,9 +112,13 @@ const Home = () => (
                 className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-10"
                 data-animate-on-scroll
             >
-                <a href="#contact" className="btn-scrap w-full sm:w-auto">
+                <button
+                    type="button"
+                    onClick={() => scrollToSection("contact")}
+                    className="btn-scrap w-full sm:w-auto"
+                >
                     {config.home.buttonLabel}
-                </a>
+                </button>
                 <a
                     href={`${import.meta.env.BASE_URL}resume.pdf`}
                     download="Rupsa_Bose_Resume.pdf"

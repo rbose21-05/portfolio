@@ -111,12 +111,9 @@ const Home = () => (
                 className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-10"
                 data-animate-on-scroll
             >
-                <button
-                    onClick={() => (window.location.href = "/#contact")}
-                    className="btn-scrap w-full sm:w-auto"
-                >
+                <a href="#contact" className="btn-scrap w-full sm:w-auto">
                     {config.home.buttonLabel}
-                </button>
+                </a>
                 <a
                     href={`${import.meta.env.BASE_URL}resume.pdf`}
                     download="Rupsa_Bose_Resume.pdf"
